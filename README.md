@@ -1,58 +1,29 @@
-# Hill-Hacker
-Hill-Hacker is a developing educational platform focused on supporting rural students of Uttarakhand by teaching them coding, digital skills, and providing study resources like previous year question papers and video tutorials.
+# Uttarakhand Govt School Learning Platform
 
-🛠️ This is the early structure of the project — more features and content will be added gradually.
+This is a simple educational platform for government school students in Uttarakhand. It helps students prepare for exams, watch the best educational videos in Hindi, access previous year question papers, and learn programming.
 
-🌱 Current Phase: Foundation
-We are in the early development stage. The basic idea and direction are set, and we are starting to create initial content.
+## Features
+- Subject-wise study material
+- Curated educational videos (in Hindi)
+- Previous year question papers
+- Programming tutorials (in Hindi)
 
-✔️ What’s done so far:
-✅ Project idea and structure created
+## How to Run
+1. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Run the Flask app:
+   ```
+   python app.py
+   ```
+3. Open your browser and go to `http://127.0.0.1:5000/`
 
-✅ YouTube channel launched
+## Folder Structure
+- `app.py` - Main Flask application
+- `templates/` - HTML templates
+- `static/` - Static files (PDFs, images, etc.)
 
-✅ GitHub repository setup
+---
 
-✅ Planning content for students in rural areas
-
-📺 YouTube Channel
-We’ve started uploading tutorials and content here:
-👉 Hill-Hacker on YouTube
-
-Subscribe and follow along as the project grows!
-
-🔜 What’s Coming Next
-Coding tutorials in Python, HTML/CSS (in Hindi)
-
-Downloadable previous year question papers
-
-Simple tech learning in local language
-
-Career guidance for rural students
-
-Mobile-friendly website or app
-
-📍 Who It's For
-Students from rural Uttarakhand
-
-Schools with limited digital resources
-
-Beginners in coding or computer basics
-
-Anyone who wants to learn from scratch
-
-🤝 How You Can Help
-Share ideas or feedback
-
-Help with coding content
-
-Translate content to Hindi
-
-Design, write, or mentor
-
-Spread the word
-
-✍️ Maintainer
-Gaurav Singh Bisht 
-Founder of Hill-Hacker
-📍 Uttarakhand, India
+You can now add your own videos, PDFs, and resources to the platform! 
